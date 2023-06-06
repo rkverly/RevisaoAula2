@@ -17,6 +17,11 @@ int main(){
 	//Subtração
     subtracao = num1 - num2;
     printf("Subtracao: %.2f\n", subtracao);
+    
+    
+    //Multiplicação
+    multiplicacao = num1 * num2;
+    printf("Multiplicao: %.2f\n", multiplicacao);
 
     return 0;
 
