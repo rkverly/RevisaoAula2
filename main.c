@@ -22,6 +22,15 @@ int main(){
     //Multiplicação
     multiplicacao = num1 * num2;
     printf("Multiplicao: %.2f\n", multiplicacao);
+    
+    //Divisão
+    if(num2 != 0){
+        divisao = num1 / num2;
+        printf("Divisão: %.2f\n", divisao);
+    }else{
+        printf("Não é posível dividir por zero.\n");
+    }
+
 
     return 0;
 
