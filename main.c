@@ -13,7 +13,10 @@ int main(){
 	//soma
     soma = num1 + num2;
     printf("Soma: %.2f\n", soma);
-
+	
+	//Subtração
+    subtracao = num1 - num2;
+    printf("Subtracao: %.2f\n", subtracao);
 
     return 0;
 
